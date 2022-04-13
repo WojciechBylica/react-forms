@@ -1,0 +1,36 @@
+.layout {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5d5d5;
+    min-height: 100vh;
+}
+
+.nav {
+    width: 100%;
+    padding: 24px;
+    background-color: #000;
+    text-align: center;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: 900;
+}
+
+.footer {
+    width: 100%;
+    padding: 24px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
