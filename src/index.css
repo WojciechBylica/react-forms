@@ -5,3 +5,7 @@ html {
 *, ::after, ::before {
   Box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
