@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-const logo = '/.logo192.png'
+const logo = './logo192.png'
 
 const Nav = () => (
   <nav className="nav">
