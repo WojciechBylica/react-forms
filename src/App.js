@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Navigate, NavLink, Route, Routes } from 'react-router-dom'
+import FormHtml from './pages/FormHtml/FormHtml'
+import './App.css'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <NavLink to="/">Formularz</NavLink>
+      </nav>
+      <h1>Formularz </h1>
+      <Routes>
+        <Route path="/" element={<FormHtml />} />
+        <Route path="*" element={<Navigate />} />
+      </Routes>
     </div>
-  );
+  )
 }
-
-export default App;
