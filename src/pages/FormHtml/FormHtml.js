@@ -76,6 +76,7 @@ const FormHtml = () => {
           onBlur={formArray[0].handleTrimInput}
           ref={formArray[0].inputRef}
           className="form__input"
+          autoFocus
         />
         <Error isHidden={formArray[0].inputAlert} />
       </label>
