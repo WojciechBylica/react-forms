@@ -5,4 +5,5 @@
   align-items: center;
   background-color: #d5d5d5;
   min-height: 100vh;
+  justify-content: space-between;
 }
